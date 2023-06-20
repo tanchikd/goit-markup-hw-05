@@ -360,10 +360,16 @@
           </ul>
         </div>
 
-        <div class="footer-form">
-          <label for="subscribe-email" style="display: flex">Subscribe</label>
-          <input type="email" name="subscribe-email" id="subscribe-email" placeholder="E-mail" />
-          <button>Subscribe</button>
+        <div class="subscribe-wrap">
+          <label for="subscribe-email" class="subscribe-label">Subscribe</label>
+          <form class="footer-form">
+            <input type="email" class="footer-input" name="subscribe-email" id="subscribe-email" placeholder="E-mail" />
+            <button type="button" class="subscribe-btn">
+              Subscribe<svg class="subscribe-svg" width="24" height="20">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
