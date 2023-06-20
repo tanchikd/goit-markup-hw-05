@@ -783,7 +783,7 @@ body {
 }
 
 .textarea-wrap {
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .modal-textarea:focus {
@@ -821,12 +821,12 @@ body {
 }
 
 .check-privacy {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
